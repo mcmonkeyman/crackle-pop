@@ -6,4 +6,4 @@ Write a program that prints out the numbers 1 to 100 (inclusive). If the number 
 `make run`
 
 # Test
-`make tests`
+`make test`
