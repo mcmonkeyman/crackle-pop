@@ -3,14 +3,14 @@
 def crackle_pop():
     c_pop_list = []
     for i in list(range(1, 100)):
-        toPrint = i 
+        chosen = i 
         if (i%3 == 0 or i%5 == 0):
-            toPrint = ''
+            chosen = ''
         if (i%3 == 0):
-            toPrint += 'Crackle'
+            chosen += 'Crackle'
         if (i%5 == 0):
-            toPrint += 'Pop'
-        c_pop_list.append(toPrint)
+            chosen += 'Pop'
+        c_pop_list.append(chosen)
     return c_pop_list
 
 
